@@ -4,3 +4,6 @@
 
 # Example:
 # User.create(name: "example", email: "ex@mple.com")
+# Test user for auth
+
+User.create(email: "admin@example.com", password: "password")

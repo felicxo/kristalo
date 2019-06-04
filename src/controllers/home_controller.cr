@@ -1,5 +1,7 @@
 class HomeController < ApplicationController
   def index
-    render("index.slang")
+    respond_with do
+      json({ "" => "" })
+    end
   end
 end
